@@ -1,5 +1,5 @@
 [ipaserver]
-ipaserver.test.local
+freeipa-1.canada.boson.ai  ansible_host=10.1.1.203 ansible_user=root
 
 [ipaserver:vars]
 #ipaserver_setup_dns=yes
@@ -8,15 +8,15 @@ ipaserver.test.local
 
 
 [ipareplicas]
-ipareplica1.test.local
+#ipareplica1.test.local
 
 [ipareplicas:vars]
 ipaclient_force_join=yes
 
 
 [ipaclients]
-ipaclient1.test.local
-ipaclient2.test.local
+#ipaclient1.test.local
+#ipaclient2.test.local
 
 [ipaclients:vars]
 #ipaclient_use_otp=yes
